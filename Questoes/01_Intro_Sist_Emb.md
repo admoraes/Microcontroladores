@@ -15,3 +15,4 @@ Quanto ao número de instruções podemos classificá-las como RISC ou CISC. A a
 A arquitetura CISC possui um grande número de instruções implementadas em hardware. Isso oferece melhor desempenho 
 
 5. Por que usamos o MSP430 na disciplina, ao invés de outro microcontrolador?
+Por ser um microcontrolador de baixo custo e por possuir uma plataforma fácil de programar e debugar, o MSP40 é uma excelente opção para o aprendizado de microcontroladores.
