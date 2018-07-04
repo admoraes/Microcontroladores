@@ -44,5 +44,3 @@ Por conta disso, a arquitetura de Von Neumann tem a vantagem de ser menos comple
 0x0201: AB </br>
 0x0202: 51 </br>
 0x0203: 80 </br>
-
-6. Sabendo que o processador do MSP430 tem registradores de 16 bits, como ele soma duas variáveis de 32 bits?
