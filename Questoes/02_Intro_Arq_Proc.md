@@ -31,17 +31,17 @@ Para este código, responda: (a) A variável `i` é armazenada na memória RAM o
 A principal diferença entre as arquiteturas Harvad e Von Neumann é o acesso a memória. Na arquitetura de Von Neumann as memória RAM e ROM utilizam o mesmo barramento de dados e endereço. Por outro lado, a arquitetura Harvard utiliza um barramento de dados e endereço para a memória RAM e outro para a memória ROM.
 Por conta disso, a arquitetura de Von Neumann tem a vantagem de ser menos complexa em relação a arquitetura Harvard, mas de ser mais lenta, pois na arquitetura harvard uma instrução pode ser executada enquanto também são buscadas informações na memória RAM.
 
-5. Considere a variável inteira `i`, armazenando o valor `0x8051ABCD`. Se `i` é armazenada na memória a partir do endereço `0x0200`, como ficam este byte e os seguintes, considerando que a memória é: (a) Little-endian; (b) Big-endian.
+5. Considere a variável inteira `i`, armazenando o valor `0x8051ABCD`. Se `i` é armazenada na memória a partir do endereço `0x0200`, como ficam este byte e os seguintes, considerando que a memória é: (a) Little-endian; (b) Big-endian. </br>
 (a) Little-endian
-0x0200: 80
-0x0201: 51
-0x0202: AB
-0x0203: CD
-
+0x0200: 80 </br>
+0x0201: 51 </br>
+0x0202: AB </br>
+0x0203: CD </br>
+</br>
 (b) Big-endian
-0x0200: CD
-0x0201: AB
-0x0202: 51
-0x0203: 80
+0x0200: CD </br>
+0x0201: AB </br>
+0x0202: 51 </br>
+0x0203: 80 </br>
 
 6. Sabendo que o processador do MSP430 tem registradores de 16 bits, como ele soma duas variáveis de 32 bits?
